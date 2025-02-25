@@ -71,7 +71,7 @@ button:hover{
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  width: absolute;
+  width: 95%;
 }
 
 /* Style the links inside the navigation bar */
