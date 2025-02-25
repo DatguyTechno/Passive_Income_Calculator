@@ -1,0 +1,132 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+<link rel="stylesheet" href="P1_page1_homeproject.css">
+<title>Michael HB Future Analyst</title>
+<h1 >Michael HB   </h1>
+<h1 > Data Analyst Project</h1>
+<br><p style="line-height:1.65">Welcome to my 1st project .I built this entire app <br>with Coding , Business Intelligence Software , & Excel.<br>The Video page has additional information / instructions.</p>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p3 class="lead" style="color:white">Thank you for using my app. Currently <strong><%=data%></strong> 
+ users have left feedback (Email/User Name is Optional).</p3>
+
+
+
+
+	<form class="forms">
+	<label for="firstNum">Enter a Starting Deposit:</label><br><br><br>
+<input type="number" id="firstNum" name="firstNum"><br><br>
+
+<button onclick="multiply()">Results</button><br><br>
+	</form>
+
+<forms class="form2">
+  <label>Passive Income Return:</label><br><br>
+	<label>IRA : 0.15%~5%</label><br><br>
+	<label>401k: 5~8%</label><br><br>
+	<label>HYS: 0.01~0.50%</label><br><br>
+	<label>Crypto: 2%~7% </label><br><br>
+</forms>
+
+<forms class="form3">
+<label for="firstNum">Monthly Return(Max):</label><br><br>
+
+
+<label for="result">  IRA at 5%  = </label>
+<input type="number" id="result" name="result" style="width:80px"/><br><br>
+<label for="result">401k at 8% =</label>
+<input type="number" id="result2" name="result" style="width:80px"/><br><br>
+<label for="result">HYS at 0.5% =</label>
+<input type="number" id="result3" name="result" style="width:80px"/><br><br>
+	<label for="result">Crypto at 7% =</label>
+<input type="number" id="result4" name="result" style="width:80px"/><br><br>
+
+</forms>
+
+<forms class="form4">
+  <label>Contribution Limit:</label><br><br>
+	<label>IRA : $6,000 | $7,000 (50yrs+)</label><br><br>
+	<label>401k: $19,500</label><br><br>
+	<label>HYS: No Limit</label><br><br>
+	<label>Crypto: No Limit </label><br><br>
+</forms>
+<forms class="form5">
+  <label>Pros / Cons:</label><br><br>
+	<div class="dropdown">
+  <button class="dropbtn">IRA</button>
+  <div class="dropdown-content">
+  <a href="#"><strong>Pros : FDIC Insured up to 250k, Tax Free after 59.5 yrs</strong> </a>
+	  <a href="#"><strong>Cons : Lowest contribution limit here </strong></a>
+	  <a href="#"><strong>Cons2 :  10~20% penalty withdrawing before 59.5yrs</strong></a>	
+</div>
+</div>    
+<div class="dropdown">
+  <button class="dropbtn">401k</button>
+  <div class="dropdown-content">
+	  <a href="#"><strong>Pros : FDIC Insured up to 250k, Employer match program</strong>  </a>
+	  <a href="#"><strong>Cons : 10% + income tax no matter what age you withdraw</strong> </a>
+	  <a href="#"><strong>Cons2 : Vested time required to keep Employer contributions</strong> </a>
+	  <a href="#"><strong>Misc : Medium volatile returns due to stock investment</strong> </a>
+	
+	</div>
+</div><br><br>
+
+<div class="dropdown">
+  <button class="dropbtn">HYS</button>
+  <div class="dropdown-content">
+	  <a href="#"><strong>Pros : FDIC Insured up to 250k || Easiest account to open</strong>  </a>
+	  <a href="#"><strong>Pros2 : Access to funds at anytime/age</strong> </a>
+	  <a href="#"><strong>Cons : Very low interest return rates</strong>  </a>	
+	
+	</div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Crypto</button>
+  <div class="dropdown-content">
+	  <a href="#"><strong>Pros : Very high interest return rate (2~14%)</strong>  </a>
+	  <a href="#"><strong>Pros2 : Access to funds at anytime/age</strong> </a>
+	  <a href="#"><strong>Cons : Not all are FDIC Insured </strong>  </a>	
+	  <a href="#"><strong>Cons2 : Very volatile return / rates due to crypto investment</strong>   </a>	
+	</div>
+</div>
+	
+
+</forms>
+<forms >
+  
+<form method="POST" action="/register">
+ <input type="textx" name="username" class="form"  placeholder="Enter Email or User Name" style = color:white !important >	
+<input type="textx" name="advice" class="form"  placeholder="Leave Feedback Here" style = color:white !important >
+ <button>Submit</button>	
+</form>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="navbar">
+  <a href="P1__page1_homepage.html" class="active">Home</a>
+  <a href="P1__page2_videopage.html">Video</a>
+  <a href="P1__page3_cert.html">Certifications</a>
+  <a href="P1__page4_extra.html">Extra</a>
+</div>
+	
+
+<script>
+function multiply(){
+	num1 = document.getElementById("firstNum").value;
+	result = num1 * 0.05/12;
+	let a = result.toFixed(2);
+	document.getElementById("result").value = a;
+	num1 = document.getElementById("firstNum").value;
+	result = num1 * 0.08/12;
+	let b = result.toFixed(2);
+	document.getElementById("result2").value = b;
+	num1 = document.getElementById("firstNum").value;
+	result = num1 * 0.005/12;
+	let c = result.toFixed(2);
+	document.getElementById("result3").value = c;
+	num1 = document.getElementById("firstNum").value;
+	result = num1 * 0.07/12;
+	let d = result.toFixed(2);
+	event.preventDefault();
+	document.getElementById("result4").value = d;
+}
+	</script>
