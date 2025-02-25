@@ -191,7 +191,7 @@ button:hover{
   background-color: #04AA6D;
   color: white;
 }
-.navbar b.new {
+.navbar a.new {
   background-color: gold;
   color: white;
 }
