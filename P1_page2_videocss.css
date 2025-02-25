@@ -71,7 +71,7 @@ button:hover{
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  width: 95%;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -80,7 +80,7 @@ button:hover{
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 14px;
+  padding: 8px 8px;
   text-decoration: none;
   font-size: 20px;
   width: 32%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
