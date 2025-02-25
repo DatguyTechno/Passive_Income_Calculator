@@ -191,6 +191,10 @@ button:hover{
   background-color: #04AA6D;
   color: white;
 }
+.navbar b.new {
+  background-color: gold;
+  color: white;
+}
 .dropbtn {
   background-color: #4CAF50;
   color: white;
