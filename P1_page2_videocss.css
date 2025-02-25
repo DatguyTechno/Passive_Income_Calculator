@@ -98,3 +98,7 @@ button:hover{
   background-color: #04AA6D;
   color: white;
 }
+.navbar a.new {
+  background-color: #483d8b;
+  color: white;
+}
