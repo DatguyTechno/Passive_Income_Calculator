@@ -11,23 +11,25 @@
 
 
 
-<body>
-	<form class="forms">
+<div class="container">
+<div>
+	<!--form class="forms"-->
 	<label for="firstNum">Enter a Starting Deposit:</label><br><br><br>
 <input type="number" id="firstNum" name="firstNum"><br><br>
 
 <button onclick="multiply()">Results</button><br><br>
-	</form>
-
-<forms class="form2">
+	<!--/form-->
+</div>
+<div>
+<!--forms class="form2"-->
   <label>Passive Income Return:</label><br><br>
 	<label>IRA : 0.15%~5%</label><br><br>
 	<label>401k: 5~8%</label><br><br>
 	<label>HYS: 0.01~0.50%</label><br><br>
 	<label>Crypto: 2%~7% </label><br><br>
-</forms>
-
-<forms class="form3">
+<!--/forms-->
+</div>
+<!--forms class="form3"-->
 <label for="firstNum">Monthly Return(Max):</label><br><br>
 
 
@@ -40,15 +42,19 @@
 	<label for="result">Crypto at 7% =</label>
 <input type="number" id="result4" name="result" style="width:80px"/><br><br>
 
-</forms>
-
-<forms class="form4">
+<!--/forms-->
+</div>
+<div>
+<!--forms class="form4"-->
   <label>Contribution Limit:</label><br><br>
 	<label>IRA : $6,000 | $7,000 (50yrs+)</label><br><br>
 	<label>401k: $19,500</label><br><br>
 	<label>HYS: No Limit</label><br><br>
 	<label>Crypto: No Limit </label><br><br>
-</forms>
+<!--/forms-->
+</div>
+<div>
+<div>
 <forms class="form5">
   <label>Pros / Cons:</label><br><br>
 	<div class="dropdown">
@@ -89,10 +95,26 @@
 	  <a href="#"><strong>Cons2 : Very volatile return / rates due to crypto investment</strong>   </a>	
 	</div>
 </div>
-	
+</div>
+
+<style>
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
 
 </forms>
-</body>
+
 <forms >
   
 <!--form method="POST" action="/register"-->
