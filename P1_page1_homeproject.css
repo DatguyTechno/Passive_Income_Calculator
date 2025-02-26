@@ -148,6 +148,18 @@ button:hover{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+.form {
+	line-height: 1.5;
+	border: yes;
+	border-bottom: 3px solid #ebebeb;
+	margin-top: 40px;
+	width: 475px;
+	font-size: 4em;
+	color: black;
+	padding: 5px 10px;
+	background: black;
+}
 .forms {
 	line-height: 1.35;
 	border: yes;
@@ -159,6 +171,37 @@ button:hover{
 	height:225px;
 	width: 175px;
 	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
+.form2 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 275px;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 175px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
+.form3 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 500px;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 255px;
+	font-size: 1em;
+	text-align: center;
 	color: black;
 	padding: 5px 5px;
 	background: none;
