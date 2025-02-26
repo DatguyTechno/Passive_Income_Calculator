@@ -73,7 +73,7 @@ button:hover{
 .navbar {
   background-color: #333;
   overflow: hidden;
-  position: static;
+  position: sticky;
   bottom: 0;
   width: 100%;
 }
