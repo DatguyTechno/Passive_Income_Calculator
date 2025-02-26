@@ -165,7 +165,7 @@ button:hover{
 	border: yes;
 	position: absolute;
 	top: 165px;
-	left: 25px;
+	left: 5%;
 	border-bottom: none;
 	margin-top: 200px;
 	height:225px;
@@ -180,7 +180,7 @@ button:hover{
 	border: yes;
 	position: absolute;
 	top: 165px;
-	left: 275px;
+	left: 18%;
 	border-bottom: none;
 	margin-top: 200px;
 	height:225px;
@@ -195,7 +195,7 @@ button:hover{
 	border: yes;
 	position: absolute;
 	top: 165px;
-	left: 500px;
+	left: 32%;
 	border-bottom: none;
 	margin-top: 200px;
 	height:225px;
@@ -205,4 +205,34 @@ button:hover{
 	color: black;
 	padding: 5px 5px;
 	background: none;
+}
+.form4 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 61%;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 200px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
+.form5 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 85%;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 175px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: rgb(0, 128, 255);
 }
