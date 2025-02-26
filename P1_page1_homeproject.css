@@ -45,7 +45,7 @@ input[type="number"] {
 
 input[type="textx"] {
     font-size:15.5px
-
+}
 
 button {
     line-height: 2.0;
@@ -147,4 +147,19 @@ button:hover{
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+.forms {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 25px;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 175px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
 }
