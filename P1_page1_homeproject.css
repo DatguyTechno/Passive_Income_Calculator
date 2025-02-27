@@ -46,6 +46,95 @@ input[type="number"] {
 input[type="textx"] {
     font-size:15.5px
 }
+.forms {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 25px;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 175px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
+.form2 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 275px;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 175px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
+.form3 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 500px;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 255px;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
+.form4 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 775px;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 200px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
+.form5 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 1025px;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 175px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: rgb(0, 128, 255);
+}
+
+
+.form {
+	line-height: 1.5;
+	border: yes;
+	border-bottom: 3px solid #ebebeb;
+	margin-top: 40px;
+	width: 475px;
+	font-size: 4em;
+	color: black;
+	padding: 5px 10px;
+	background: black;
+}
 
 button {
     line-height: 2.0;
@@ -73,7 +162,7 @@ button:hover{
 .navbar {
   background-color: #333;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -84,10 +173,10 @@ button:hover{
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 8px 8px;
+  padding: 14px 14px;
   text-decoration: none;
   font-size: 20px;
-  width: 32%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 22%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
 
@@ -100,10 +189,6 @@ button:hover{
 /* Add a color to the active/current link */
 .navbar a.active {
   background-color: #04AA6D;
-  color: white;
-}
-.navbar a.new {
-  background-color: #483d8b;
   color: white;
 }
 .dropbtn {
@@ -148,91 +233,7 @@ button:hover{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-
-.form {
-	line-height: 1.5;
-	border: yes;
-	border-bottom: 3px solid #ebebeb;
-	margin-top: 40px;
-	width: 475px;
-	font-size: 4em;
-	color: black;
-	padding: 5px 10px;
-	background: black;
-}
-.forms {
-	line-height: 1.35;
-	border: yes;
-	position: absolute;
-	top: 165px;
-	left: 10%;
-	border-bottom: none;
-	margin-top: 200px;
-	height:225px;
-	width: 175px;
-	font-size: 1em;
-	color: black;
-	padding: 5px 5px;
-	background: none;
-}
-.form2 {
-	line-height: 1.35;
-	border: yes;
-	position: absolute;
-	top: 165px;
-	left: 22%;
-	border-bottom: none;
-	margin-top: 200px;
-	height:225px;
-	width: 175px;
-	font-size: 1em;
-	color: black;
-	padding: 5px 5px;
-	background: none;
-}
-.form3 {
-	line-height: 1.35;
-	border: yes;
-	position: absolute;
-	top: 165px;
-	left: 38%;
-	border-bottom: none;
-	margin-top: 200px;
-	height:225px;
-	width: 255px;
-	font-size: 1em;
-	text-align: center;
-	color: black;
-	padding: 5px 5px;
-	background: none;
-}
-.form4 {
-	line-height: 1.35;
-	border: yes;
-	position: absolute;
-	top: 165px;
-	left: 56%;
-	border-bottom: none;
-	margin-top: 200px;
-	height:225px;
-	width: 200px;
-	font-size: 1em;
-	color: black;
-	padding: 5px 5px;
-	background: none;
-}
-.form5 {
-	line-height: 1.35;
-	border: yes;
-	position: absolute;
-	top: 165px;
-	left: 85%;
-	border-bottom: none;
-	margin-top: 200px;
-	height:225px;
-	width: 175px;
-	font-size: 1em;
-	color: black;
-	padding: 5px 5px;
-	background: rgb(0, 128, 255);
-}
+.navbar a.new {
+	background-color: #483d8b;
+	color: white;
+  }
