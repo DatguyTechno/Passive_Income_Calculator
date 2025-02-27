@@ -161,9 +161,9 @@ button:hover{
 
 .navbar {
   background-color: #333;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
+  overflow: visible;
+  position: relative;
+  bottom: 0px;
   width: 100%;
 }
 
@@ -176,10 +176,13 @@ button:hover{
   padding: 14px 14px;
   text-decoration: none;
   font-size: 20px;
-  width: 22%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
-
+.navbar a.new {
+	background-color: #483d8b;
+	color: white;
+  }
 /* Change the color of links on hover */
 .navbar a:hover {
   background-color: #ddd;
