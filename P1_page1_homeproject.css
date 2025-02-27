@@ -209,22 +209,27 @@ button:hover{
   width: 100%;
 }
 
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 /* Style the links inside the navigation bar */
 .navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 14px;
+  padding: 8px 8px;
   text-decoration: none;
   font-size: 20px;
-  width: 50%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 32%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
 }
-.navbar a.new {
-	background-color: #483d8b;
-	color: white;
-  }
+
 /* Change the color of links on hover */
 .navbar a:hover {
   background-color: #ddd;
@@ -237,6 +242,6 @@ button:hover{
   color: white;
 }
 .navbar a.new {
-	background-color: #483d8b;
-	color: white;
-  }
+  background-color: #483d8b;
+  color: white;
+}
