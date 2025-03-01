@@ -174,3 +174,18 @@ button:hover{
 	padding: 5px 5px;
 	background: none;
 }
+.grid_5 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 1025px;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 175px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: rgb(0, 128, 255);
+}
