@@ -59,3 +59,27 @@
   <a href="/Passive_Income_Calculator/microsoft_elements.html" class="active">Microsoft Elements</a>
   <a href="https://datguytechno.github.io/Website/" class="new">2025 Project</a>  </div>
 <br><br><br><br>
+
+
+
+<script>
+function multiply(){
+	num1 = document.getElementById("firstNum").value;
+	result = num1 * 0.05/12;
+	let a = result.toFixed(2);
+	document.getElementById("result").value = a;
+	num1 = document.getElementById("firstNum").value;
+	result = num1 * 0.08/12;
+	let b = result.toFixed(2);
+	document.getElementById("result2").value = b;
+	num1 = document.getElementById("firstNum").value;
+	result = num1 * 0.005/12;
+	let c = result.toFixed(2);
+	document.getElementById("result3").value = c;
+	num1 = document.getElementById("firstNum").value;
+	result = num1 * 0.07/12;
+	let d = result.toFixed(2);
+	event.preventDefault();
+	document.getElementById("result4").value = d;
+}
+	</script>
