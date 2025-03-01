@@ -31,6 +31,11 @@ background: none
 }
 .center {
 	margin: auto;}
+p3 {
+  margin: 0;
+  font-size: 22.5px;
+	background: rgb(0, 128, 255);
+}
 form {
 	line-height: 1.5;
 	border: yes;
