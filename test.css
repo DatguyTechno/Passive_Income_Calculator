@@ -102,3 +102,14 @@ button:hover{
   background-color: #483d8b;
   color: white;
 }
+.userinput {
+	line-height: 1.5;
+	border: yes;
+	border-bottom: 3px solid #ebebeb;
+	margin-top: 40px;
+	width: 475px;
+	font-size: 4em;
+	color: black;
+	padding: 5px 10px;
+	background: black;
+}
