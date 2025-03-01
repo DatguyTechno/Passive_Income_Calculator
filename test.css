@@ -128,3 +128,49 @@ button:hover{
 	padding: 5px 5px;
 	background: none;
 }
+.grid_2 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 20%;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 175px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
+.grid_3 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 40%;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 255px;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
+.grid_4 {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 60%;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 200px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
