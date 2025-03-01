@@ -113,3 +113,18 @@ button:hover{
 	padding: 5px 10px;
 	background: black;
 }
+.grid_left {
+	line-height: 1.35;
+	border: yes;
+	position: absolute;
+	top: 165px;
+	left: 10%;
+	border-bottom: none;
+	margin-top: 200px;
+	height:225px;
+	width: 175px;
+	font-size: 1em;
+	color: black;
+	padding: 5px 5px;
+	background: none;
+}
