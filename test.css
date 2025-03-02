@@ -249,3 +249,15 @@ input[type=text]:focus {
 button:hover{
   opacity: 1;
 }
+.inputboxsize {
+  height: 50px;	
+}
+input[type="startstart"] {
+  font-size:11.25px;
+}
+input[type="number"] {
+	font-size:11.25px;}
+
+input[type="textx"] {
+    font-size:15.5px
+}
