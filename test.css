@@ -108,10 +108,10 @@ button:hover{
   color: white;
 }
 .userinput {
-	line-height: 1;
+	line-height: .75;
 	border: yes;
 	border-bottom: 3px solid #ebebeb;
-	margin-top: 40px;
+	margin-top: 20px;
 	width: 475px;
 	font-size: 4em;
 	color: black;
