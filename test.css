@@ -242,3 +242,10 @@ button:hover{
   bottom: 0px;
   width: 100%;
 }
+input[type=text]:focus {
+  outline: yes;
+}
+
+button:hover{
+  opacity: 1;
+}
